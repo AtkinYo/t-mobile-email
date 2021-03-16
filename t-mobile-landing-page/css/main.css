@@ -1,0 +1,286 @@
+body {
+  background-image: url(/images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+/* NAVIGATION BAR */
+
+.navbar-brand img {
+  height: 3rem;
+}
+
+.navbar {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.nav-item {
+  padding: 0.5rem;
+}
+
+.navbar-toggler-icon {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.navbar-toggler {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.navbar-toggler:active {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* SHOWCASE AREA */
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.jumbotron-tag h1 {
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+.jumbotron-tag h2 {
+  font-size: 1.95rem;
+  margin-left: 4rem;
+  font-weight: 600;
+  letter-spacing: 28px;
+  color: #c0a16b;
+  margin-bottom: 24px;
+}
+
+.jumbotron-tag h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.jumbo-img {
+  width: 35rem;
+}
+
+.jumbo-tag {
+  text-align: center;
+}
+
+.jumbo-buttons {
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 1.15rem 2.5rem;
+  margin-bottom: 15px;
+  border-radius: 32px;
+  border: none;
+  background-color: #72003b;
+}
+
+.jumbo-img-area {
+  text-align: center;
+}
+
+/* PROMO BANNER */
+
+.promo-banner {
+  margin-top: 24px;
+  padding: 4vh;
+  background-color: #72003b;
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+span {
+  padding: 0;
+  display: flex;
+  text-align: center;
+  color: rgb(255, 44, 44);
+}
+
+.navbar-toggler-icon {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+
+/* PRODUCT CARD */
+
+.product-card {
+  text-align: center;
+  margin-top: 36px;
+  margin: 1rem;
+  border-radius: 4px;
+  color: #72003b;
+}
+
+.product-card img {
+  margin: 12px;
+}
+
+.product-card h1 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.product-card h2 {
+  font-size: 1rem;
+  font-weight: 800;
+  margin-top: 12px;
+}
+
+button.cart-btn {
+  background-color: #72003b;
+  color: #ffffff;
+  border: none;
+  margin-top: 12px;
+  border-radius: 8px;
+  padding: 12px;
+  width: 7rem;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.product-card h3 {
+  font-size: 1.125rem;
+  font-weight: 800;
+}
+
+.promo-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promo-area img {
+  margin: 48px 0px;
+  border-radius: 2px;
+  text-align: center;
+  width: 50%;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #72003b;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(228, 228, 228);
+  padding: 24px;
+}
+
+footer img {
+  width: 60px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.social-media-links {
+  text-align: right;
+}
+
+.social-media-links i {
+  text-align: right;
+  font-size: 1.25rem;
+  margin: 10px;
+}
+
+.footer-links {
+  justify-content: space-between;
+}
+
+.footer-logo img {
+  width: 96px;
+}
+
+@media only screen and (max-width: 768px) {
+  .jumbo-img {
+    width: 25rem;
+  }
+
+  .promo-banner {
+    font-size: 1.15rem;
+  }
+
+  .btn {
+    padding: 1rem 1.15rem;
+    margin-bottom: 15px;
+    border-radius: 32px;
+    border: none;
+    background-color: #72003b;
+    display: flex;
+  }
+
+  .jumbo-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .jumbo-img {
+    width: 18rem;
+  }
+  .promo-banner {
+    font-size: 1rem;
+  }
+
+  .jumbo-tag h1 {
+    font-size: 4rem;
+  }
+
+  .social-media-links p {
+    font-size: 0.75rem;
+    width: 140px;
+    text-align: center;
+  }
+  .social-media-links i {
+    font-size: 0.75rem;
+    margin: 6px;
+  }
+
+  .promo-area img {
+    margin: 48px 0px;
+    border-radius: 2px;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .jumbo-img {
+    width: 12rem;
+  }
+
+  .jumbo-tag h2 {
+    font-size: 1rem;
+    margin: 0;
+  }
+}
